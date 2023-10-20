@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="CSSandJS/格式.css">
+    </link>
+</head>
+
+<body>
+    <div class="totaldiv">
+        <div id="headerdiv">行事曆
+            <button id="inPutData">匯入資料</button>
+        </div>
+        <div id="maindiv">
+            <div id="chousediv">
+                <div id="wyear">
+                    <button id="butssizeyl">
+                        <img id="lYMC" src="./img/角括號(左).png">
+                    </button>
+                    <div id="inputYear">年</div>
+                    <button id="butssizeyr">
+                        <img id="lYMC" src="./img/角括號(右).png">
+                    </button>
+                </div>
+                <div id="wmonth">
+                    <button id="butssizeml">
+                        <img id="lYMC" src="./img/角括號(左).png">
+                    </button>
+                    <div id="inputMonth">月</div>
+                    <button id="butssizemr">
+                        <img id="lYMC" src="./img/角括號(右).png">
+                    </button>
+                </div>
+                <div id="wtoday">
+                    <button id="butsizetoday">
+                        <img id="imgtoday" src="./img/今天.png">
+                    </button>
+                </div>
+                <div id="wactive">
+                    <button id="butsizeactive">
+                        <img id="imgactive" src="./img/讚.png">
+                    </button>
+                </div>
+                <div id="wwork">
+                    <button id="butsizework">
+                        <img id="imgwork" src="./img/備忘標籤.png">
+                    </button>
+                </div>
+                <div id="wtrash">
+                    <img id="trashcan" src="./img/垃圾桶.png">
+                </div>
+            </div>
+            <div id="datediv">
+                <div id="d1">
+                    <div id="d10"><img id="trashcan" src="../小專/img/日.png"></div>
+                    <div id="d11"><img id="trashcan" src="../小專/img/一.png"></div>
+                    <div id="d12"><img id="trashcan" src="../小專/img/二.png"></div>
+                    <div id="d13"><img id="trashcan" src="../小專/img/三.png"></div>
+                    <div id="d14"><img id="trashcan" src="../小專/img/四.png"></div>
+                    <div id="d15"><img id="trashcan" src="../小專/img/五.png"></div>
+                    <div id="d16"><img id="trashcan" src="../小專/img/六.png"></div>
+                </div>
+                <div id="d2">
+                    <div id="d20">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive1" class="setactive"></div>
+                        <div id="inwork1" class="setwork"></div>
+                    </div>
+                    <div id="d21">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive2" class="setactive"></div>
+                        <div id="inwork2" class="setwork"></div>
+                    </div>
+                    <div id="d22">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive3" class="setactive"></div>
+                        <div id="inwork3" class="setwork"></div>
+                    </div>
+                    <div id="d23">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive4" class="setactive"></div>
+                        <div id="inwork4" class="setwork"></div>
+                    </div>
+                    <div id="d24">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive5" class="setactive"></div>
+                        <div id="inwork5" class="setwork"></div>
+                    </div>
+                    <div id="d25">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive6" class="setactive"></div>
+                        <div id="inwork6" class="setwork"></div>
+                    </div>
+                    <div id="d26">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive7" class="setactive"></div>
+                        <div id="inwork7" class="setwork"></div>
+                    </div>
+                </div>
+                <div id="d3">
+                    <div id="d30">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive8" class="setactive"></div>
+                        <div id="inwork8" class="setwork"></div>
+                    </div>
+                    <div id="d31">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive9" class="setactive"></div>
+                        <div id="inwork9" class="setwork"></div>
+                    </div>
+                    <div id="d32">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive10" class="setactive"></div>
+                        <div id="inwork10" class="setwork"></div>
+                    </div>
+                    <div id="d33">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive11" class="setactive"></div>
+                        <div id="inwork11" class="setwork"></div>
+                    </div>
+                    <div id="d34">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive12" class="setactive"></div>
+                        <div id="inwork12" class="setwork"></div>
+                    </div>
+                    <div id="d35">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive13" class="setactive"></div>
+                        <div id="inwork13" class="setwork"></div>
+                    </div>
+                    <div id="d36">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive14" class="setactive"></div>
+                        <div id="inwork14" class="setwork"></div>
+                    </div>
+                </div>
+                <div id="d4">
+                    <div id="d40">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive15" class="setactive"></div>
+                        <div id="inwork15" class="setwork"></div>
+                    </div>
+                    <div id="d41">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive16" class="setactive"></div>
+                        <div id="inwork16" class="setwork"></div>
+                    </div>
+                    <div id="d42">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive17" class="setactive"></div>
+                        <div id="inwork17" class="setwork"></div>
+                    </div>
+                    <div id="d43">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive18" class="setactive"></div>
+                        <div id="inwork18" class="setwork"></div>
+                    </div>
+                    <div id="d44">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive19" class="setactive"></div>
+                        <div id="inwork19" class="setwork"></div>
+                    </div>
+                    <div id="d45">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive20" class="setactive"></div>
+                        <div id="inwork20" class="setwork"></div>
+                    </div>
+                    <div id="d46">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive21" class="setactive"></div>
+                        <div id="inwork21" class="setwork"></div>
+                    </div>
+                </div>
+                <div id="d5">
+                    <div id="d50">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive22" class="setactive"></div>
+                        <div id="inwork22" class="setwork"></div>
+                    </div>
+                    <div id="d51">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive23" class="setactive"></div>
+                        <div id="inwork23" class="setwork"></div>
+                    </div>
+                    <div id="d52">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive24" class="setactive"></div>
+                        <div id="inwork24" class="setwork"></div>
+                    </div>
+                    <div id="d53">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive25" class="setactive"></div>
+                        <div id="inwork25" class="setwork"></div>
+                    </div>
+                    <div id="d54">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive26" class="setactive"></div>
+                        <div id="inwork26" class="setwork"></div>
+                    </div>
+                    <div id="d55">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive27" class="setactive"></div>
+                        <div id="inwork27" class="setwork"></div>
+                    </div>
+                    <div id="d56">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive28" class="setactive"></div>
+                        <div id="inwork28" class="setwork"></div>
+                    </div>
+                </div>
+                <div id="d6">
+                    <div id="d60">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive29" class="setactive"></div>
+                        <div id="inwork29" class="setwork"></div>
+                    </div>
+                    <div id="d61">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive30" class="setactive"></div>
+                        <div id="inwork30" class="setwork"></div>
+                    </div>
+                    <div id="d62">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive31" class="setactive"></div>
+                        <div id="inwork31" class="setwork"></div>
+                    </div>
+                    <div id="d63">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive32" class="setactive"></div>
+                        <div id="inwork32" class="setwork"></div>
+                    </div>
+                    <div id="d64">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive33" class="setactive"></div>
+                        <div id="inwork33" class="setwork"></div>
+                    </div>
+                    <div id="d65">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive34" class="setactive"></div>
+                        <div id="inwork34" class="setwork"></div>
+                    </div>
+                    <div id="d66">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive35" class="setactive"></div>
+                        <div id="inwork35" class="setwork"></div>
+                    </div>
+                </div>
+                <div id="d7">
+                    <div id="d70">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive36" class="setactive"></div>
+                        <div id="inwork36" class="setwork"></div>
+                    </div>
+                    <div id="d71">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive37" class="setactive"></div>
+                        <div id="inwork37" class="setwork"></div>
+                    </div>
+                    <div id="d72">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive38" class="setactive"></div>
+                        <div id="inwork38" class="setwork"></div>
+                    </div>
+                    <div id="d73">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive39" class="setactive"></div>
+                        <div id="inwork39" class="setwork"></div>
+                    </div>
+                    <div id="d74">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive40" class="setactive"></div>
+                        <div id="inwork40" class="setwork"></div>
+                    </div>
+                    <div id="d75">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive41" class="setactive"></div>
+                        <div id="inwork41" class="setwork"></div>
+                    </div>
+                    <div id="d76">
+                        <div id="inday" class="setday"></div>
+                        <div id="inactive42" class="setactive"></div>
+                        <div id="inwork42" class="setwork"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ask">
+        <div id="askactive" title="建立活動">
+            <h4>活動:</h4>
+            <input type="text" id="aA">
+            <h4>天數:</h4>
+            <input type="text" id="aD">
+            <h4>地點:</h4>
+            <input type="text" id="aF">
+            <h4>物品:</h4>
+            <textarea name="物品" cols="23" rows="1"></textarea>
+            <h4>流程:</h4>
+            <textarea name="流程" cols="23" rows="1"></textarea>
+            <h4>備註:</h4>
+            <textarea name="備註" cols="23" rows="1"></textarea>
+            <p></p>
+            <p></p>
+            <button id="as">確認</button>
+            <button id="an">取消</button>
+        </div>
+        <div id="askwork" title="建立 待辦 / 提醒 事項">
+            <h4>待辦 / 提醒 事項:</h4>
+            <input type="text" id="wW">
+            <h4>時間:</h4>
+            <input type="text" id="wD">
+            <h4>地點:</h4>
+            <input type="text">
+            <h4>物品:</h4>
+            <textarea name="物品" cols="23" rows="1"></textarea>
+            <h4>流程:</h4>
+            <textarea name="流程" cols="23" rows="1"></textarea>
+            <h4>備註:</h4>
+            <textarea name="備註" cols="23" rows="1"></textarea>
+            <p></p>
+            <p></p>
+            <button id="ws">確認</button>
+            <button id="wn">取消</button>
+        </div>
+        <div id="askask" title="修改 / 移除 / 移動">
+            <h4>活動:</h4>
+            <span id="aaa"></span>
+            <h4>天數:</h4>
+            <span id="aad"></span>
+            <h4>地點:</h4>
+            <span id="aaw"></span>
+            <h4>物品:</h4>
+            <span></span>
+            <h4>流程:</h4>
+            <span></span>
+            <h4>備註:</h4>
+            <span></span>
+            <p></p>
+            <p></p>
+            <button id="ts">確認</button>
+        </div>
+        <div id="askYN" title="你確定嗎?">
+            <div>你確定要刪除嗎?</div>
+            <img src="./img/quby-chan-confused.gif">
+        </div>
+    </div>
+
+    <script src="./CSSandJS/日期.js"></script>
+    <script src="./CSSandJS/點擊.JS"></script>
+    <script>
+        // dialog
+        var someThing = null
+        $(function () {
+
+            $('#askactive').dialog({
+                autoOpen: false,
+                modal: true,
+            })
+            $('#butsizeactive').click(function () {
+                $('#askactive').dialog('open')
+            })
+
+            $('#an').click(function () {
+                $('#askactive').dialog('close')
+            })
+
+            $('#askwork').dialog({
+                autoOpen: false,
+                modal: true,
+            })
+
+            $('#butsizework').click(function () {
+                $('#askwork').dialog('open')
+            })
+
+            $('#wn').click(function () {
+                $('#askwork').dialog('close')
+            })
+
+            $('#askask').dialog({
+                autoOpen: false,
+                modal: true,
+            })
+
+            $('#ts').click(function () {
+                $('#askask').dialog('close')
+
+            })
+
+            $('#askYN').dialog({
+                autoOpen: false,
+                modal: true,
+                buttons: {
+                    確認: function () {
+                        $('#askYN').dialog('close')
+                        console.log(typeof someThing[0].id);
+                        if (someThing[0].id == 'inactive34') {
+                            $(".setactive").css({ 'background-color': 'rgb(246, 234, 224)', 'height': '33.3333%', 'margin-left': '1px', 'margin-right': '1px', 'border-left': '1px gray solid', 'border-right': '1px gray solid', 'display': 'flex', 'justify-content': 'center', 'align-items': 'center' })
+                            someThing.text('')
+                            $('#inactive34').click(function () {
+                                $('#aaa').text('')
+                                $('#aad').text('')
+                                $('#aaw').text('')
+                                $('#askask').dialog('open')
+                            })
+                        }
+                        if (someThing[0].id == 'inwork35') {
+                            $(".setwork").css({ 'background-color': 'rgb(191, 193, 179)', 'height': '33.3333%', 'margin-left': '1px', 'margin-right': '1px', 'border-left': '1px gray solid', 'border-right': '1px gray solid', 'display': 'flex', 'justify-content': 'center', 'align-items': 'center' })
+                            someThing.text('')
+                            $('#inwork35').click(function () {
+                                $('#aaa').text('')
+                                $('#aad').text('')
+                                $('#aaw').text('')
+                                $('#askask').dialog('open')
+                            })
+                        }
+                    },
+                    取消: function () {
+                        $('#askYN').dialog('close')
+                    }
+                },
+                close: function (event, ui) {
+                    $('#trashcan').attr('src', './img/垃圾桶.png')
+                },
+            })
+
+
+            // 垃圾桶
+
+
+
+            // 將目標丟棄時，
+            $('#inactive34').draggable({
+                revert: true,
+                start: function (event, ui) {
+                    $('#trashcan').attr('src', './img/垃圾桶(開).png')
+                },
+                stop: function (event, ui) {
+                    $('#trashcan').attr('src', './img/垃圾桶.png')
+                }
+            })
+
+            $('#inwork35').draggable({
+                revert: true,
+                start: function (event, ui) {
+                    $('#trashcan').attr('src', './img/垃圾桶(開).png')
+                },
+                stop: function (event, ui) {
+                    $('#trashcan').attr('src', './img/垃圾桶.png')
+                }
+            })
+
+            // 垃圾桶動作
+            $('#wtrash').droppable({
+                drop: function (event, ui) {
+                    someThing = $(ui.draggable)
+                    $('#askYN').dialog('open')
+                }
+            })
+
+        })
+
+        // 取得資料
+        inPutData.onclick = function () {
+            var url = 'https://cloud.culture.tw/frontsite/trans/SearchShowAction.do?method=doFindTypeJ&category=1'
+            $.get(url, function (data) {
+                var PCT = data[27].title;
+                var PCS = data[27].startDate;
+                var PCE = data[27].endDate;
+                var PCW = data[27].showInfo[0].locationName;
+                var VGT = data[31].title;
+                var VGS = data[31].showInfo[0].time.substr(-8);
+                var VGE = data[31].showInfo[0].endTime.substr(-8);
+                var VGW = data[31].showInfo[0].locationName;
+                var EN = parseInt(data[27].endDate.substr(-2));
+                var SN = parseInt(data[27].startDate.substr(-2));
+                var SED = EN - SN + 1;
+
+                //匯入資料 
+                $('#inactive34').text(`${PCT}`.substr(0, 5))
+                    .css('font-size', '15px')
+                    .css('background-color', 'lightpink');
+                $('#inactive35').css('background-color', 'lightpink');
+                $('#inactive36').css('background-color', 'lightpink');
+
+                $('#inwork35').text(`${VGT}`.substr(0, 7))
+                    .css('font-size', '14px')
+                    .css('background-color', 'rgba(144, 238, 144, 0.87))');
+
+                // 點擊目標
+                $('#inactive34').click(function () {
+                    $('#aaa').text(`${PCT}`)
+                    $('#aad').text(`${SED}`)
+                    $('#aaw').text(`${PCW}`)
+                    $('#askask').dialog('open')
+                })
+
+                $('#inwork35').click(function () {
+                    $('#aaa').text(`${VGT}`)
+                    $('#aad').text(`${VGS}~${VGE}`)
+                    $('#aaw').text(`${VGW}`)
+                    $('#askask').dialog('open')
+                })
+
+
+
+
+
+
+
+
+
+                console.log(data[27].title);
+                console.log(data[27].endDate);
+                console.log(data[27].startDate);
+                console.log(data[27].showInfo[0].locationName);
+                console.log(data[31].title);
+                console.log(data[31].showInfo[0].endTime.substr(-8));
+                console.log(data[31].showInfo[0].time.substr(-8));
+                console.log(data[31].showInfo[0].locationName);
+            })
+        }
+
+    </script>
+</body>
+
+</html>

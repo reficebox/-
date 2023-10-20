@@ -1,0 +1,266 @@
+[
+    {
+        "version": "1.4",
+        "UID": "642efb2273f77c5230cb65d7",
+        "title": "新手村 節目",
+        "category": "5",
+        "showInfo": [
+            {
+                "time": "2023/07/10 12:00:00",
+                "location": "臺北市萬華區成都路88號",
+                "locationName": "國賓大戲院  國賓鉅院",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.04293178096961",
+                "longitude": "121.50459833804456",
+                "endTime": "2023/07/21 12:00:00"
+            },
+            {
+                "time": "2023/07/19 12:00:00",
+                "location": "臺北市松山區八德路三段25號",
+                "locationName": "臺北市藝文推廣處城市舞台",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.04861453425399",
+                "longitude": "121.55146145758658",
+                "endTime": "2023/07/26 12:00:00"
+            },
+            {
+                "time": "2023/07/19 12:00:00",
+                "location": "臺北市大安區羅斯福路四段1號臺灣大學禮賢樓B1",
+                "locationName": "臺灣大學藝文中心遊心劇場",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.014352332329217",
+                "longitude": "121.53768001730836",
+                "endTime": "2023/08/31 16:00:00"
+            },
+            {
+                "time": "2023/07/20 12:00:00",
+                "location": "臺北市大安區羅斯福路四段1號臺灣大學禮賢樓B1",
+                "locationName": "臺灣大學藝文中心遊心劇場",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.014352332329217",
+                "longitude": "121.53768001730836",
+                "endTime": "2023/08/31 12:00:00"
+            },
+            {
+                "time": "2023/07/20 12:00:00",
+                "location": "臺北市大安區羅斯福路四段1號臺灣大學禮賢樓B1",
+                "locationName": "臺灣大學藝文中心遊心劇場",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.014352332329217",
+                "longitude": "121.53768001730836",
+                "endTime": "2023/08/31 12:00:00"
+            }
+        ],
+        "showUnit": "鵬博藝術股份有限公司",
+        "discountInfo": "",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://www.opentix.life/program/1643903044572114946",
+        "sourceWebPromote": "https://www.opentix.life/program/1643903044572114946",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "OPENTIX兩廳院文化生活",
+        "startDate": "2023/07/10",
+        "endDate": "2023/08/31",
+        "hitRate": 45
+    },
+    {
+        "version": "1.4",
+        "UID": "648b6db773f77c07602b97a9",
+        "title": "112年「傳藝友善 聽障導覽」7-11月活動報名",
+        "category": "5",
+        "showInfo": [
+            {
+                "time": "2023/07/29 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/07/29 13:00:00"
+            },
+            {
+                "time": "2023/08/19 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/08/19 13:00:00"
+            },
+            {
+                "time": "2023/09/09 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/09/09 13:00:00"
+            },
+            {
+                "time": "2023/10/14 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/10/14 13:00:00"
+            },
+            {
+                "time": "2023/10/21 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/10/21 13:00:00"
+            },
+            {
+                "time": "2023/11/04 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/11/04 13:00:00"
+            },
+            {
+                "time": "2023/11/25 13:00:00",
+                "location": "268  宜蘭縣五結鄉五濱路二段201號",
+                "locationName": "宜蘭傳藝園區",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.685587",
+                "longitude": "121.824053",
+                "endTime": "2023/11/25 13:00:00"
+            }
+        ],
+        "showUnit": "國立傳統藝術中心",
+        "discountInfo": "",
+        "descriptionFilterHtml": "(一)場次：\n\n\n\t\n\t\t\n\t\t\t\n\t\t\t場次\n\t\t\t\n\t\t\t\n\t\t\t日期\n\t\t\t\n\t\t\t\n\t\t\t行程\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t園區\n\t\t\t\n\t\t\t\n\t\t\t展示館\n\t\t\t\n\t\t\t\n\t\t\t傳藝工坊\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t第1場\n\t\t\t\n\t\t\t\n\t\t\t7月15日(六)\n\t\t\t\n\t\t\t\n\t\t\t文昌祠\n\t\t\t\n\t\t\t\n\t\t\t當期展覽\n\t\t\t\n\t\t\t\n\t\t\t傳統工藝\n\n\t\t\tDIY體驗\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t第2場\n\t\t\t\n\t\t\t\n\t\t\t7月29日(六)\n\t\t\t\n\t\t\t\n\t\t\t廣孝堂\n\t\t\t\n\t\t\n\t\t\n\t\t\t第3場\n\t\t\t\n\t\t\t8月19日(六)\n\t\t\t\n\t\t\t\n\t\t\t黃舉人宅\n\t\t\t\n\t\t\n\t\t\n\t\t\t第4場\n\t\t\t\n\t\t\t9月09日(六)\n\t\t\t\n\t\t\t\n\t\t\t文昌祠\n\t\t\t\n\t\t\n\t\t\n\t\t\t第5場\n\t\t\t\n\t\t\t10月14日(六)\n\t\t\t\n\t\t\t\n\t\t\t廣孝堂\n\t\t\t\n\t\t\n\t\t\n\t\t\t第6場\n\t\t\t\n\t\t\t10月21日(六)\n\t\t\t\n\t\t\t\n\t\t\t廣孝堂\n\t\t\t\n\t\t\n\t\t\n\t\t\t第7場\n\t\t\t\n\t\t\t11月04日(六)\n\t\t\t\n\t\t\t\n\t\t\t黃舉人宅\n\t\t\t\n\t\t\n\t\t\n\t\t\t第8場\n\t\t\t\n\t\t\t11月25日(六)\n\t\t\t\n\t\t\t\n\t\t\t文昌祠\n\t\t\t\n\t\t\n\t\n\n\n(二)集合地點：國立傳統藝術中心 宜蘭傳藝園區售票口\n\n(三)時間：13：00-16：00\n\n(四)對象：聽障朋友、陪同親友、對手語學習有興趣者(以領有身心障礙證明之聽障者優先)。\n\n(五)人數：每場次10人-15人(含陪同者)。\n\n(六)導覽團隊：本活動導覽團隊由聾人手譯員徐曉文、牛暄文、劉秋薰、陳友馨及聽人手譯員王興嬙、林亞秀、歐姵君等組成，每場次將由2位聾人與2位聽人手譯員輪值導覽。\n\n(七)流程：\n\n\n\t\n\t\t\n\t\t\t\n\t\t\t時間\n\t\t\t\n\t\t\t\n\t\t\t流程\n\t\t\t\n\t\t\t\n\t\t\t說明\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t13:00-13:15\n\t\t\t\n\t\t\t\n\t\t\t與會者報到\n\t\t\t\n\t\t\t\n\t\t\t於國立傳統藝術中心宜蘭傳藝園區售票口集合報到。\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t13:15-13:45\n\t\t\t\n\t\t\t\n\t\t\t園區導覽\n\t\t\t\n\t\t\t\n\t\t\t由手語導覽團隊偕同參加者前往園區及展示館參觀，透過聾人手譯員導覽，聽人手譯員翻譯解說，讓參加者認識傳統藝術與文化。\n\n\t\t\t導覽活動中設計題目與現場參與者進行有獎徵答，答對者贈送紀念獎品乙份。\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t13:45-14:45\n\t\t\t\n\t\t\t\n\t\t\t展示館導覽\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t14:45-15:45\n\t\t\t\n\t\t\t\n\t\t\t傳統工藝\n\n\t\t\tDIY體驗\n\t\t\t\n\t\t\t\n\t\t\t參加者前往傳藝工坊進行工藝手作體驗。\n\n\t\t\t(體驗種類由主辦單位安排)\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t15:45-16:00\n\t\t\t\n\t\t\t\n\t\t\t心得分享及\n\n\t\t\t填寫問卷\n\t\t\t\n\t\t\t\n\t\t\t請參加者分享參觀體驗後的心得，並填寫問卷以供本中心參考使用。\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t16:00\n\t\t\t\n\t\t\t\n\t\t\t賦歸\n\t\t\t\n\t\t\n\t\n\n\n \n\n ",
+        "imageUrl": "",
+        "masterUnit": [
+            "國立傳統藝術中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/NCFTA/portal/Registration/C0103MAction?actId\u003d30037",
+        "sourceWebPromote": "https://event.culture.tw/NCFTA",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2023/07/29",
+        "endDate": "2023/11/25",
+        "hitRate": 23
+    },
+    {
+        "version": "1.4",
+        "UID": "649f0b1e73f77c07602b9e70",
+        "title": "【2023臺北藝穗節】痛是因為動；動是因為痛",
+        "category": "5",
+        "showInfo": [
+            {
+                "time": "2023/08/19 20:30:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/19 21:00:00"
+            },
+            {
+                "time": "2023/08/20 14:30:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/20 15:00:00"
+            },
+            {
+                "time": "2023/08/20 16:00:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/20 16:30:00"
+            },
+            {
+                "time": "2023/08/20 19:30:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/20 20:00:00"
+            },
+            {
+                "time": "2023/08/21 14:30:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/21 15:00:00"
+            },
+            {
+                "time": "2023/08/21 16:00:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/21 16:30:00"
+            },
+            {
+                "time": "2023/08/21 19:30:00",
+                "location": "臺北市大同區西寧北路104號2樓",
+                "locationName": "課廳演創空間",
+                "onSales": "Y",
+                "price": "",
+                "latitude": "25.0558143",
+                "longitude": "121.508836",
+                "endTime": "2023/08/21 20:00:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://www.opentix.life/program/1665920617958559745",
+        "sourceWebPromote": "https://www.opentix.life/program/1665920617958559745",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "OPENTIX兩廳院文化生活",
+        "startDate": "2023/08/19",
+        "endDate": "2023/08/21",
+        "hitRate": 9
+    }
+]
